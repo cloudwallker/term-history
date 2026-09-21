@@ -1,0 +1,4 @@
+interface:
+  display_name: "词条深度溯源"
+  short_description: "核验词条早期出处、传播时间线与指定来源的热度峰值"
+  default_prompt: "使用 $term-history 调查这个词条的最早已知记录与传播历史，保留来源证据；有真实趋势数据时分析观测峰值。"
