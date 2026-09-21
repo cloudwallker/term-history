@@ -1,13 +1,15 @@
 # 深度溯源 · term-history
 
-个人使用的 Codex Skill：调查中文词条的早期出处、传播历史和指定数据源的热度峰值。结果保存在本地，可继续追查或补充 CSV。
+**中文简介：** 一个中文优先的 Codex Skill，用可追溯证据调查词条的早期出处、传播时间线和指定数据源的热度峰值。支持本地报告、继续调查，以及 Google Trends 和通用 CSV 导入。
+
+**English overview:** A Chinese-first Codex skill for investigating the earliest verifiable records of terms, their spread over time, and observed popularity peaks within a specified data source and time range. It provides source-backed local reports, resumable investigations, and Google Trends or generic CSV imports.
 
 ## 开始使用
 
 在 Codex 中打开本项目，使用：
 
 ```text
-$term-history 调查“内卷”，重点研究作为网络流行语的用法。
+$term-history 调查动漫角色“高松灯”的起源，核对最早公开介绍和首次登场的出处。
 ```
 
 Skill 位于 `.agents/skills/term-history/`。如果没有出现在技能选择器，重新打开项目或启动新会话；也可以明确要求 Codex 读取这个目录下的 SKILL.md 执行调查。当前会话必须具有联网搜索与网页读取能力；浏览器辅助可选。
@@ -29,7 +31,7 @@ python -X utf8 -m unittest discover -s tests -v
 - **继续调查**：保留此前的证据、检索日志和结论版本。补充趋势数据不必重新调查出处。
 
 ```text
-$term-history 继续 runs 中上次的“内卷”调查。
+$term-history 继续 runs 中上次的“高松灯”调查。
 $term-history 将我提供的 Google Trends CSV 加入这份调查报告。
 ```
 

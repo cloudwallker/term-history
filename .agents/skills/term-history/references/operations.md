@@ -5,7 +5,7 @@
 ```powershell
 $thScript = '.agents/skills/term-history/scripts/term_history.py'
 python -X utf8 $thScript --help
-python -X utf8 $thScript init '内卷' --meaning '网络流行语：低效重复的内部竞争'
+python -X utf8 $thScript init '高松灯' --meaning '动漫角色“高松灯”的起源与最早公开记录；排除同名对象'
 ```
 
 init 输出 JSON 中的 `path` 是调查文件绝对路径。后续把它设为 `$runPath`；下面的 JSON 文件由执行调查的 Agent 根据实际观察创建，不能原样当作真实证据。
@@ -82,7 +82,7 @@ python -X utf8 $thScript render $runPath
 
 ```json
 {
-  "term":"内卷",
+  "term":"高松灯",
   "source":"Google Trends",
   "source_url":"https://trends.google.com/trends/explore",
   "metric":"所选查询范围内的相对搜索兴趣（0—100）",
