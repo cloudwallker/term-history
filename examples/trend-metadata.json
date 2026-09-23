@@ -1,0 +1,10 @@
+{
+  "term": "示例词（合成数据）",
+  "source": "合成示例",
+  "source_url": "https://example.com/synthetic",
+  "metric": "演示指数（无真实统计含义）",
+  "region": "虚构地域",
+  "start": "2024-01-01",
+  "end": "2024-01-06",
+  "granularity": "day"
+}

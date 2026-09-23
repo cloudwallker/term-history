@@ -22,9 +22,10 @@ secrets*.json
 **/tests/
 **/test/
 /.github/
-/docs/
+/docs/behavior-validation.md
+/docs/implementation.md
+/docs/validation.md
 /benchmarks/
 /artifacts/
 /e2e/
-/examples/
 /AGENTS.md
