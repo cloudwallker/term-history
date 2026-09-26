@@ -1,8 +1,12 @@
-# 深度溯源 · term-history
+# term-history · 深度溯源
 
-**中文简介：** 一个中文优先的 Codex Skill，用可追溯证据调查词条的早期出处、传播时间线和指定数据源的热度峰值。支持本地报告、继续调查，以及 Google Trends 和通用 CSV 导入。
+### A Codex skill for tracing terms, sources, and trends
 
-**English overview:** A Chinese-first Codex skill for investigating the earliest verifiable records of terms, their spread over time, and observed popularity peaks within a specified data source and time range. It provides source-backed local reports, resumable investigations, and Google Trends or generic CSV imports.
+**Investigate a term's earliest verifiable records and spread, examine peaks within a specified trend source and time range, and keep a Chinese evidence report you can resume and extend.** Supports Google Trends and generic CSV imports.
+
+**调查词条最早可验证的出处与传播过程，分析指定数据源和时间范围内的热度峰值，保存可继续调查、补充证据的中文报告。** 支持 Google Trends 和通用 CSV 导入。
+
+[Get started · 开始使用](#开始使用) · [Examples · 示例](#示例) · [Data limits · 数据限制](#数据限制)
 
 ## 开始使用
 
