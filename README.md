@@ -8,6 +8,9 @@
 
 [Get started · 开始使用](#开始使用) · [Examples · 示例](#示例) · [Data limits · 数据限制](#数据限制)
 
+
+![term-history](docs/images/cartoon-infographic.png)
+
 ## 开始使用
 
 在 Codex 中打开本项目，使用：
